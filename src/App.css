@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-create {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  margin-top: 20px;
+}
+
+.todo-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.todo-create-button {
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icons {
+  font-size: 22px;
+  cursor: pointer;
+}
